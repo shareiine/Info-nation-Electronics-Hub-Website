@@ -16,24 +16,23 @@ Eyo! Eto yung mga alam ko lang na markdowns -Marcus
 ![image](/folder/image.png "Title of Image")
 
 ## Font
-Real-Time Weather Data: WeatherApp
-
-_Daily Climate Updates: Stay informed_
-
-~~Carbon Footprint Tracker: Taking climate~~
-
-**_Sustainable Lifestyle Tips: WeatherApp_**
+Example Text
+_Example Text_
+~~Example Text~~
+**_Example Text_**
 
 ### Bullets
-- Hello
- - Hi
+- Example Text
+* Example Text
 
-1. Wuzzup
-2.   Eyo
+1. Example Text
+2. Example Text
 
 #### Links
 https://youtu.be/dQw4w9WgXcQ
 [More Markdown here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "Markdown Cheatsheet")
 
-##### Header
-###### Headers
+##### Highlight
+``Example Text``
+
+###### This is the last Header
