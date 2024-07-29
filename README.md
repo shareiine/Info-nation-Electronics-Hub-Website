@@ -12,7 +12,7 @@ Eyo! Eto yung mga alam ko lang na markdowns galing sa project namin dati -Marcus
 
 
 # oo3GreenProject
-![image](/documentation/poster.jpg "Poster")
+![image](/logo.png "Logo")
 
 **GREEN's Proposal**
 
@@ -51,9 +51,7 @@ Eyo! Eto yung mga alam ko lang na markdowns galing sa project namin dati -Marcus
 6. Climate Advocacy and Petitions: WeatherApp
 
 **Charts:**
-![image](/documentation/flowchart.png "Flowchart")
-![image](/documentation/ipochart.png "IPO chart")
-![image](/documentation/ganttchart.png "Gantt chart")
+![image](/folder/image.png "Title of Image")
 
 # Presentation
 https://youtu.be/dQw4w9WgXcQ
