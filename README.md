@@ -8,36 +8,32 @@ Teeway
 
 -Mac
 
-Eyo! Eto yung mga alam ko lang na markdowns galing sa project namin dati -Marcus
+Eyo! Eto yung mga alam ko lang na markdowns -Marcus
 
 
-# oo3GreenProject
+# Image
 ![image](/logo.png "Logo")
 ![image](/folder/image.png "Title of Image")
 
-##GREEN's Proposal
+## Font
+Real-Time Weather Data: WeatherApp
 
-**Group members:**
-- Molina, Marcus Cristan S. (Leader)
-- Llopis, Ferndale T.
-- Pelagio,Dana Ysabelle A.
+_Daily Climate Updates: Stay informed_
 
-###Title: Weather Tracker App**
+~~Carbon Footprint Tracker: Taking climate~~
 
-**Theme: GOAL 13 - Climate Action**
+**_Sustainable Lifestyle Tips: WeatherApp_**
 
-- WeatherApp is a mobile application
-* This is a weather app
+### Bullets
+- Hello
+ - Hi
 
-**Main Features:**
+1. Wuzzup
+2.   Eyo
 
-1. Real-Time Weather Data: WeatherApp
-
-2. Daily Climate Updates: Stay informed
-
-3. Carbon Footprint Tracker: Taking climate
-
-4. Sustainable Lifestyle Tips: WeatherApp
-
-# Presentation
+#### Links
 https://youtu.be/dQw4w9WgXcQ
+[More Markdown here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "Markdown Cheatsheet")
+
+##### Header
+###### Headers
