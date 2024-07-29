@@ -8,7 +8,7 @@ Teeway
 
 -Mac
 
-Eyo! Eto yung mga alam ko lang na markdowns -Marcus
+Hiii! Eto lang yung mga alam ko na markdowns -Marcus
 
 
 # Image
@@ -17,8 +17,11 @@ Eyo! Eto yung mga alam ko lang na markdowns -Marcus
 
 ## Font
 Example Text
+
 _Example Text_
+
 ~~Example Text~~
+
 **_Example Text_**
 
 ### Bullets
