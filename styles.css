@@ -73,3 +73,55 @@ h1 {
     height: auto;
     border-radius: 10px;
 }
+
+.img-frame{
+	border: 2px solid green;
+	background-color: green;
+	position: relative;
+}
+
+.img-frame img {
+	width: 100%;
+	height: 100%;
+	padding-top: 5px;
+}
+
+.hovtxt {
+    position: absolute;
+	top: 50%;
+	left: 1%;
+	right: 0.45%;
+    background: hsla(144, 100%, 36%, 0.78);
+	opacity:0;
+	transition-duration: 1.2s;
+	transition-timing-function: ease-in-out;
+	height:50%;
+	padding: 10px;
+	font-weight: bold;
+	text-align: justify;
+	color: black;
+}
+
+.img-frame:hover .hovtxt {
+    opacity: 1;
+}
+
+.hovtxt-alt {
+    position: absolute;
+	top: 50%;
+	left: 1%;
+	right: 0.45%;
+    background: hsla(85, 100%, 1%, 0.78);
+	opacity:0;
+	transition-duration: 1.2s;
+	transition-timing-function: ease-in-out;
+	height:50%;
+	padding: 10px;
+	font-weight: bold;
+	text-align: justify;
+	color: white;
+}
+
+.img-frame:hover .hovtxt-alt {
+    opacity: 1;
+}
