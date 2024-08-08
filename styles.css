@@ -125,3 +125,46 @@ h1 {
 .img-frame:hover .hovtxt-alt {
     opacity: 1;
 }
+
+
+.container2 {
+	margin: 30px;
+}
+
+.card {
+	width: 400px;
+	background: #fff;
+	height: 300px;
+	padding: 20px;
+	margin: 5px;
+}
+
+.overlay{
+	width: 400px;
+	background: #03c04a;
+	height: 200px;
+	padding: 20px;
+	margin-top: 105px;
+	position: absolute;
+	color: white;
+	border-radius: 0px 0px 5px 5px;
+	opacity:0;
+	overflow: hidden;
+	transition-duration: 1.2s;
+	transition-timing-function: ease-in-out;
+	text-align: justify;
+}
+
+.overlay p {
+	font-size: 12px;
+}
+
+.card .card-img {
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+.col:hover .overlay {
+    opacity: 1;
+}
