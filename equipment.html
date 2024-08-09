@@ -30,39 +30,84 @@
         </div>
     </div>
 	<div class = "container">
-			<div class = "row">
-				<div class = "col mx-auto d-flex justify-content-center">
-					<div class = "card">
-						<img src = "fluke.png" class = "card-img" alt = "fluke">
-					</div>
-					<div class = "overlay">
-						<h5>Fluke</h5>
-						<p>A well-known brand specializing in test and measurement tools. They produce a wide range of equipment used to measure and analyze electrical systems. Their products are known for their reliability, durability, and accuracy.</p>
-						<button type="button" onclick = "flukeTable()" class="btn btn-light" style = "color: #03c04a;">Products</button>
-					</div>
+		<div class = "row">
+			<div class = "col mx-auto d-flex justify-content-center">
+				<div class = "card">
+					<img src = "equipment-img\fluke.png" class = "card-img" alt = "fluke">
 				</div>
-				<div class = "col mx-auto d-flex justify-content-center">
-					<div class = "card">
-						<img src = "tektronix.png" class = "card-img" alt = "tektronix">
-					</div>
-					<div class = "overlay">
-						<h5>Tektronix</h5>
-						<p>A leading manufacturer of test and measurement equipment. They are renowned for their high-precision instruments, particularly oscilloscopes, used in various industries for designing, building, and troubleshooting electronic equipment.</p>
-						<button type="button" class="btn btn-light" style = "color: #03c04a;">Products</button>
-					</div>
+				<div class = "overlay">
+					<h5>Fluke</h5>
+					<p>A well-known brand specializing in test and measurement tools. They produce a wide range of equipment used to measure and analyze electrical systems. Their products are known for their reliability, durability, and accuracy.</p>
+					<a href = "https://www.fluke.com/en-us" target="_blank"><button type="button" class="btn btn-light" style = "color: #03c04a;">Official Website</button></a>
 				</div>
-				<div class = "col mx-auto d-flex justify-content-center">
-					<div class = "card">
-						<img src = "keysight.png" class = "card-img" alt = "keysight technologies">
-					</div>
-					<div class = "overlay">
-						<h5>Keysight Technologies</h5>
-						<p>A provider of electronic design and test solutions that helps companies accelerate innovation in areas like communications, automotive, and aerospace. They offer tools for manufacturing, and network optimization.</p>
-						<button type="button" class="btn btn-light" style = "color: #03c04a;">Products</button>
-					</div>
+			</div>
+			<div class = "col mx-auto d-flex justify-content-center">
+				<div class = "card">
+					<img src = "equipment-img\tektronix.png" class = "card-img" alt = "tektronix">
+				</div>
+				<div class = "overlay">
+					<h5>Tektronix</h5>
+					<p>A leading manufacturer of test and measurement equipment. They are renowned for their high-precision instruments, particularly oscilloscopes, used in various industries for designing, building, and troubleshooting electronic equipment.</p>
+					<a href = "https://www.tek.com/en" target="_blank"><button type="button" class="btn btn-light" style = "color: #03c04a;">Official Website</button></a>
+				</div>
+			</div>
+			<div class = "col mx-auto d-flex justify-content-center">
+				<div class = "card">
+					<img src = "equipment-img\keysight.png" class = "card-img" alt = "keysight technologies">
+				</div>
+				<div class = "overlay">
+					<h5>Keysight Technologies</h5>
+					<p>A provider of electronic design and test solutions that helps companies accelerate innovation in areas like communications, automotive, and aerospace. They offer tools for manufacturing, and network optimization.</p>
+					<a href = "https://www.keysight.com/us/en/home.html" target="_blank"><button type="button" class="btn btn-light" style = "color: #03c04a;">Official Website</button></a>
 				</div>
 			</div>
 		</div>
+		<div class = "row" style = "padding: 20px;">
+			<button type="button" onclick = "showProducts()" class="btn btn-light" style = "color: #03c04a;">Show Product</button>
+			<div style = "display: none; padding: 20px;" id = "prdttables">
+				<table class="table">
+					<thead>
+						<tr>
+							<th scope="col">#</th>
+							<th scope="col">First</th>
+							<th scope="col">Last</th>
+							<th scope="col">Handle</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">1</th>
+							<td>Mark</td>
+							<td>Otto</td>
+							<td>@mdo</td>
+						</tr>
+						<tr>
+							<th scope="row">2</th>
+							<td>Jacob</td>
+							<td>Thornton</td>
+							<td>@fat</td>
+						</tr>
+						<tr>
+							<th scope="row">3</th>
+							<td>Larry</td>
+							<td>the Bird</td>
+							<td>@twitter</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script>
+		function showProducts() {
+			var x = document.getElementById("prdttables");
+			if (x.style.display === "none") {
+				x.style.display = "";
+			} else {
+				x.style.display = "";
+			}
+		}
+	</script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
