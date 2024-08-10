@@ -6,8 +6,23 @@
     <title>Info Nation - Projects</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesreg.css">
+    <style>
+        .carousel-container {
+            border-radius: 15px;
+            overflow: hidden;
+            padding: 15px;
+            background-color: #3eb489;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .carousel-caption {
+            background-color: rgba(50, 91, 150, 0.5);
+            padding: 15px;
+            border-radius: 10px;
+        }
+    </style>
 </head>
-<body style = "background-color: #FFF6C3;">
+<body style="background-color: #FFF6C3;">
     <div class="container">
         <div class="row">
             <div class="container">
@@ -16,7 +31,6 @@
                     <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
                     <span class="fs-4"><img src="logo.png" height="60"></span>
                   </a>
-            
                   <ul class="nav nav-pills">
                     <li class="nav-item"><a href="equipment.html" class="nav-link">EQUIPMENT</a></li>
                     <li class="nav-item"><a href="component.html" class="nav-link">COMPONENT</a></li>
@@ -25,43 +39,77 @@
                 </header>
             </div>
         </div>
-          <div class="col-12 text-center mb-4">
+        <div class="col-12 text-center mb-4">
             <h1>Projects</h1>
-          </div>
-          <div class="container" >
-            <div class="row g-2">
-              <div class="col">
-              </div>
-              <div class="col-11">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                  </ol>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="d-block w-80" src="proj1.png" alt="First slide">
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-10 d-flex justify-content-center">
+                    <div class="carousel-container">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                          </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img class="d-block mx-auto img-fluid" src="project/proj1.png" alt="First slide">
+                                  <div class="carousel-caption d-none d-md-block">
+                                    <h5>Traffic Light using Arduino</h5>
+                                    <p>This project will involve using a little a bit of code and a very simple circuit that’s great for beginners.</p>
+                                    <a href = "https://www.hackster.io/agarwalkrishna3009/traffic-light-using-arduino-a-beginner-project-8b3b2b" target="_blank"><button type="button" class="btn btn-light" style = "color: #325B96;">Full Project</button></a>
+                                  </div>
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block mx-auto img-fluid" src="project/proj2.png" alt="Second slide">
+                                  <div class="carousel-caption d-none d-md-block">
+                                    <h5>Sequence Arduino Electronic Game</h5>
+                                    <p>In this game, you have to remember the sequence of the LEDs in which they are turning on one after another and once it is done, the system will ask you to enter the same sequence. </p>
+                                    <a href = "https://www.hackster.io/Techatronic/sequence-arduino-electronic-game-game-with-arduino-afd3c6" target="_blank"><button type="button" class="btn btn-light" style = "color: #325B96;">Full Project</button></a>
+                                  </div>
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block mx-auto img-fluid" src="project/proj3.png" alt="Third slide">
+                                  <div class="carousel-caption d-none d-md-block">
+                                    <h5>Arduino Based Digital Thermometer</h5>
+                                    <p>In this project, an Arduino based digital thermometer is designed that can be used to monitor the temperature of room.</p>
+                                    <a href = "https://www.electronicshub.org/arduino-based-digital-thermometer/" target="_blank"><button type="button" class="btn btn-light" style = "color: #325B96;">Full Project</button></a>
+                                  </div>
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block mx-auto img-fluid" src="project/proj4.png" alt="Fourth slide">
+                                  <div class="carousel-caption d-none d-md-block">
+                                    <h5>Arduino Light Sensor</h5>
+                                    <p>A Light Sensor is a device that detects light. It generates an output signal that is proportional to the intensity of light. </p>
+                                    <a href = "https://www.electronicshub.org/arduino-light-sensor/" target="_blank"><button type="button" class="btn btn-light" style = "color: #325B96;">Full Project</button></a>
+                                  </div>
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block mx-auto img-fluid" src="project/proj5.png" alt="Fifth slide">
+                                  <div class="carousel-caption d-none d-md-block">
+                                    <h5>Arduino Buzzwire Game</h5>
+                                    <p>A simple game often seen in carnivals. This tutorial will show how to make that for yourselves.</p>
+                                    <a href = "https://www.youtube.com/watch?v=mXleSlmRQuc" target="_blank"><button type="button" class="btn btn-light" style = "color: #325B96;">Full Project</button></a>
+                                  </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </a>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-80" src="proj2.png" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-80" src="proj3.png" alt="Third slide">
-                    </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  </a>
                 </div>
-              </div>
-              <div class="col">
-              </div>
             </div>
-          </div> 
+        </div>
+        <div class="col-12 text-center mb-4">
+          <h1 style="color: rgba(0, 0, 0, 0)">INFO NATION</h1>
+      </div> 
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
